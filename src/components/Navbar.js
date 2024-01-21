@@ -3,11 +3,13 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="flex justify-between items-center w-[95%]">
-      <img
-        src="http://www.hindigraphics.in/wp-content/uploads/2019/01/pro.png"
-        className="md:w-[150px] sm:w-[110px] w-[90px]"
-        alt=""
-      />
+      <a href="/home">
+        <img
+          src="http://www.hindigraphics.in/wp-content/uploads/2019/01/pro.png"
+          className="md:w-[150px] sm:w-[110px] w-[90px]"
+          alt=""
+        />
+      </a>
       <div className="flex items-center sm:gap-12 gap-4">
         <a href="/about">
           <button className="md:text-lg sm:text-md text-[14px] hover:text-orange-400">
