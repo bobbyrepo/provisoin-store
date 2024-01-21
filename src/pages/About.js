@@ -144,7 +144,10 @@ function About() {
         <ol>
           <li>
             Clone the project repository: `git clone
-            https://github.com/bobbyrepo/provisoin-store`
+            <code className="font-[500]">
+              {" "}
+              https://github.com/bobbyrepo/provisoin-store`
+            </code>
           </li>
           <li>Install dependencies: `npm install`</li>
           <li>Start the development server: `npm start`</li>
