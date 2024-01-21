@@ -4,9 +4,9 @@ import logo from "../assets/logo.png";
 const Navbar = () => {
   return (
     <div className="flex justify-between items-center w-[95%] mx-auto">
-      <a href="/home">
-        <img src={logo} className="md:w-[90px] sm:w-[80px] w-[70px]" alt="" />
-      </a>
+      {/* <a href="/home"> */}
+      <img src={logo} className="md:w-[90px] sm:w-[80px] w-[70px]" alt="" />
+      {/* </a> */}
       <div className="flex items-center sm:gap-12 gap-4">
         <a href="/about">
           <button className="md:text-lg sm:text-md text-[14px] hover:text-orange-400">

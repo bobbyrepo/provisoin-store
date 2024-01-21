@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import bgImg from "../assets/storeImg.jpg";
+import logobg from "../assets/logobg.png";
 import FilteredProduct from "../components/FilteredProduct";
 import ProductList from "../components/ProductList";
 import axios from "axios";
@@ -60,7 +61,7 @@ function Home() {
       >
         <div className="absolute bg-gray-600 opacity-50 w-full h-full"></div>
         <img
-          src="http://www.hindigraphics.in/wp-content/uploads/2019/01/pro.png"
+          src={logobg}
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[700px] mx-auto z-90"
           alt=""
         />
