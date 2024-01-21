@@ -39,3 +39,22 @@
   margin-left: -5px;
   border-radius: 5px;
 }
+
+
+@media screen and (max-width: 450px) {
+  .login {
+    width: 300px;
+    padding: 10px 13px 20px 30px;
+  }
+
+  .login > button {
+    font-size: 14px;
+    width: 60px;
+    padding: 6px 0;
+  }
+
+  .login  input {
+    font-size: 14px;
+  }
+
+}

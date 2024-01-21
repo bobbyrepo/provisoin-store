@@ -1,14 +1,11 @@
 import React from "react";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center w-[95%]">
+    <div className="flex justify-between items-center w-[95%] mx-auto">
       <a href="/home">
-        <img
-          src="http://www.hindigraphics.in/wp-content/uploads/2019/01/pro.png"
-          className="md:w-[150px] sm:w-[110px] w-[90px]"
-          alt=""
-        />
+        <img src={logo} className="md:w-[90px] sm:w-[80px] w-[70px]" alt="" />
       </a>
       <div className="flex items-center sm:gap-12 gap-4">
         <a href="/about">
