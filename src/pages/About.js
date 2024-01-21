@@ -55,7 +55,7 @@ function About() {
   const h2css = "md:text-2xl sm:text-xl text-lg font-medium sm:mt-6 mt-4";
   const pcss = "md:text-[20px] sm:text-[19px] text-[17px] sm:mt-2 mt-1";
   return (
-    <div className="w-[80%] mx-auto mt-8">
+    <div className="w-[80%] mx-auto mt-8 mb-20">
       <h1 className="text-center md:text-3xl sm:text-2xl text-xl font-medium">
         About Provision Store E-shop Website
       </h1>
@@ -142,7 +142,10 @@ function About() {
       <p className={`${pcss}`}>
         To run the project locally, follow these steps:
         <ol>
-          <li>Clone the project repository: `git clone [repository_url]`</li>
+          <li>
+            Clone the project repository: `git clone
+            https://github.com/bobbyrepo/provisoin-store`
+          </li>
           <li>Install dependencies: `npm install`</li>
           <li>Start the development server: `npm start`</li>
         </ol>
